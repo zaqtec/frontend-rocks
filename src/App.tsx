@@ -8,17 +8,17 @@ export const Detail = () => {
 
 export const App = () => {
   const [count, setCount] = useState(0);
-  const [title, setTitle] = useState("Barbarocks");
+  const [title, setTitle] = useState("Cocco");
 
   useEffect(() => {
     if (count === 8008) {
-      setTitle("Barbarocks8008")
+      setTitle("CAzza")
     }
   },[count])
   
   useEffect(() => {
     if (count === 33033) {
-      setTitle("Barbarellarock33")
+      setTitle("scemo")
     }
   },[count])
  
