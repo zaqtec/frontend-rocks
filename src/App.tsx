@@ -41,12 +41,12 @@ export const App = () => {
 
           <button
               className="bg-blue-500 text-white px-4 py-2 rounded-md shadow-md cursor-pointer hover:bg-blue-600 transition-colors"
-              onClick={() => setTitle("Barbarellarocks")}
+              onClick={() => setTitle("LUCATION")}
           >
             Cambia
           </button>
 
-          <Link to="/frontend-rocks/omaima/Nor">Premi per vedere Omaima.</Link>
+          <Link to="/frontend-rocks/omaima/Nor">LUCATION.</Link>
 
         </div>
       </div>
