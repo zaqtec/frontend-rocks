@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router";
 
 export const Detail = () => {
   const { id } = useParams();
-  return <div className="text-7xl font-bold text-blue-400">Omaima: {id}</div>
+  return <div className="text-7xl font-bold text-blue-400">LUCATION: {id}</div>
 }
 
 export const App = () => {
